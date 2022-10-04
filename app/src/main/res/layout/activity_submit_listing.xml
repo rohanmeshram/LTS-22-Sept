@@ -40,8 +40,8 @@
 
     <ScrollView
         android:id="@+id/scrollView2"
-        android:layout_width="415dp"
-        android:layout_height="701dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
@@ -299,7 +299,7 @@
                 android:layout_gravity="center"
                 android:layout_marginLeft="10dp"
                 android:layout_marginTop="15pt"
-                android:layout_marginBottom="40pt"
+                android:layout_marginBottom="50pt"
                 android:text="Submit"
                 android:textSize="20sp"
                 app:backgroundTint="#FD0606" />
