@@ -44,7 +44,9 @@ dependencies {
     implementation 'com.basgeekball:awesome-validation:4.2'
     implementation 'com.google.guava:listenablefuture:9999.0-empty-to-avoid-conflict-with-guava'
 
+    implementation 'com.karumi:dexter:6.2.3'
 
+    implementation 'net.gotev:uploadservice:2.1'
 
 
 }
