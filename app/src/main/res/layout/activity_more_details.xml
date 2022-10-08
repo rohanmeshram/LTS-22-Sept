@@ -66,6 +66,7 @@
                 android:layout_height="45dp"
                 android:layout_marginLeft="75dp"
                 android:layout_marginTop="150dp"
+                android:onClick="selectLogo"
                 android:text="Select Logo"
                 android:textAllCaps="false"
                 android:textSize="10sp"
@@ -85,6 +86,7 @@
                 android:layout_height="45dp"
                 android:layout_marginLeft="240dp"
                 android:layout_marginTop="150dp"
+                android:onClick="selectBanner"
                 android:text="Select Banner"
                 android:textAllCaps="false"
                 android:textSize="10sp"
@@ -354,7 +356,7 @@
                 android:layout_marginLeft="145dp"
                 android:layout_marginTop="10dp"
                 android:background="#FEFEFE"
-                android:hint="AM" />
+                android:hint="AM/Closed" />
 
 
             <EditText
@@ -365,7 +367,7 @@
                 android:layout_marginLeft="275dp"
                 android:layout_marginTop="10dp"
                 android:background="#FEFEFE"
-                android:hint="PM" />
+                android:hint="PM/Closed" />
 
 
             <TextView
@@ -409,10 +411,23 @@
                 android:layout_gravity="center"
                 android:layout_marginLeft="150dp"
                 android:layout_marginTop="20dp"
-                android:layout_marginBottom="60dp"
                 android:text="Submit and Continue"
                 android:textSize="17sp"
                 app:backgroundTint="#FD0606" />
+
+            <TextView
+                android:id="@+id/tv1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/button_cont"
+                android:layout_marginTop="20dp"/>
+
+            <TextView
+                android:id="@+id/tv2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tv1"
+                android:layout_marginTop="20dp"/>
 
         </RelativeLayout>
 
